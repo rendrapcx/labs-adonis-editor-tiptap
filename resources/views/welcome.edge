@@ -10,12 +10,35 @@
 </head>
 
 <body>
-
   <main>
     <div>
       <h1 class="text-3xl font-bold underline text-red-500">
         Hello world!
       </h1>
+
+      <article class="prose lg:prose-xl">
+        <h1>Garlic bread with cheese: What the science tells us</h1>
+        <p>
+          For years parents have espoused the health benefits of eating garlic bread with cheese to their
+          children, with the food earning such an iconic status in our culture that kids will often dress
+          up as warm, cheesy loaf for Halloween.
+        </p>
+        <p>
+          But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
+          springing up around the country.
+        </p>
+
+        <p class="line-clamp-3">
+          Et molestiae hic earum repellat aliquid est doloribus delectus. Enim illum odio porro ut omnis dolor debitis
+          natus.
+          Voluptas possimus deserunt sit delectus est saepe nihil. Qui voluptate possimus et quia. Eligendi voluptas
+          voluptas
+          dolor cum. Rerum est quos quos id ut molestiae fugit.
+        </p>
+        <!-- ... -->
+      </article>
+
+
 
       <div x-data="{ open: false }">
         <button @click="open = ! open">Toggle Content</button>
@@ -23,11 +46,18 @@
         <div x-show="open">
 
 
-          <h1 class="title"> It Works! </h1>
-          <p class="subtitle">
+          <h1> It Works! </h1>
+          <article class="prose lg:prose-blockquote:">
             Congratulations, you have just created your first AdonisJS app.
-          </p>
+          </article>
 
+          <input type="email" class="form-input px-4 py-3 rounded-full">
+          <input type="password" class="form-input px-4 py-3 rounded-md">
+          <input type="date" class="form-input px-4 py-3 rounded-md">
+          <input type="datetime-local" class="form-input px-4 py-3 rounded-md">
+          <input type="search" class="form-input px-4 py-3 rounded-md">
+
+          <input type="checkbox" class="form-checkbox rounded text-pink-500" />
 
           <ul>
             <li>
@@ -43,6 +73,13 @@
                 href="https://forum.adonisjs.com/">Forum</a>.
             </li>
           </ul>
+
+          <div class="aspect-w-16 aspect-h-9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SuuGoG6EniA"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
