@@ -1,7 +1,15 @@
 # Adonis Web
 - [ ] belajar Views dan Templating
 ## Todo
-## Logs
+- [ ] tailwind CSS
+  - [ ] install
+  - [ ] config
 
-`[2022-08-21 23:51:52] : create new project`
-: _membuat project baru dengan create react app_
+### Install Tailwind & Alpine
+```sh
+npm i -D postcss-loader
+npm install alpinejs
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+
