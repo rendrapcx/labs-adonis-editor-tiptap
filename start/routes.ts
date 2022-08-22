@@ -24,6 +24,10 @@ Route.get('/', async ({ view }) => {
   return view.render('welcome')
 })
 
-Route.get('/home', async ({ view }) => {
-  return view.render('home')
+Route.get('/editorjs', async ({ view }) => {
+  return view.render('tes-editorjs')
+})
+
+Route.get('/tiptap', async ({ view }) => {
+  return view.render('tes-tiptap')
 })

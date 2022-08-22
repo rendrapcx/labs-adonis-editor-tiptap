@@ -34,3 +34,9 @@ npm install -D @tailwindcss/line-clamp
 ```
 npm i @editorjs/editorjs --save
 ```
+
+### tiptapjs for alpinejs
+> https://tiptap.dev/installation/alpine
+```
+npm install alpinejs @tiptap/core @tiptap/starter-kit
+```
