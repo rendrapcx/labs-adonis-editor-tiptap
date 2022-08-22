@@ -1,9 +1,22 @@
 # Adonis Web
-- [ ] belajar Views dan Templating
+> Views dan Templating Only Project
+> Focusing on tailwind css and alpine js
+
 ## Todo
-- [ ] tailwind CSS
-  - [ ] install
-  - [ ] config
+- [ ] ulik autocompletejs
+- [ ] ulik editorjs
+- [ ] ulik editorjs
+- [ ] Make WifeFrames
+- [ ] Make Default Layout
+- [ ] Make Custom Theme
+- [ ] Customize typography
+- [ ] Customize colors
+- [x] tailwind CSS
+  - [x] install
+  - [x] config
+- [x] alpinejs
+  - [x] install
+  - [x] config
 
 ### Install Tailwind & Alpine
 ```sh
@@ -15,4 +28,9 @@ npm install -D @tailwindcss/typography
 npm install -D @tailwindcss/forms
 npm install -D @tailwindcss/aspect-ratio
 npm install -D @tailwindcss/line-clamp
+```
+
+### editorjs
+```
+npm i @editorjs/editorjs --save
 ```

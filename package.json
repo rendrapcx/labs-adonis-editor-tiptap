@@ -67,6 +67,7 @@
     "@adonisjs/session": "^6.4.0",
     "@adonisjs/shield": "^7.1.0",
     "@adonisjs/view": "^6.1.6",
+    "@editorjs/editorjs": "^2.25.0",
     "alpinejs": "^3.10.3",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
