@@ -1,4 +1,12 @@
-# Adonis Web
+## Testing Editor on Adonis
+- clone
+- npm ci
+- cp .env.example .env
+- node ace generate:key
+- node ace list:routes
+- node ace serve
+
+## Adonis Web
 > Views dan Templating Only Project
 > Focusing on tailwind css and alpine js
 
